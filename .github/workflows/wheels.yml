@@ -5,6 +5,9 @@
 name: LuxCoreTools
 
 on:
+  push:
+    branches:
+      - work
   workflow_dispatch:
   release:
     types:
