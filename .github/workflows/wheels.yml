@@ -20,6 +20,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
+      - name: Checkout repository and submodule(s)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 1
+
       - name: Install Hatch
         uses: pypa/hatch@install
 
