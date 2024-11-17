@@ -62,7 +62,6 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          pattern: luxcore-*
           path: dist
           merge-multiple: true
 
