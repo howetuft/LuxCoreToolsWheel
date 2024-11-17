@@ -20,11 +20,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Install Hatch
+        uses: pypa/hatch@install
 
       - name: Build wheel
         shell: bash
         run: |
-          sudo apt-get install hatch
           hatch build
 
       # Upload artifacts
