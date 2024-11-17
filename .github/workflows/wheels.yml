@@ -24,7 +24,7 @@ jobs:
       - name: Build wheel
         shell: bash
         run: |
-          apt install hatch
+          sudo apt-get install hatch
           hatch build
 
       # Upload artifacts
