@@ -50,3 +50,36 @@ packages = [
   "LuxCore/src/pyluxcoretools/pyluxcoretools",
   "src"
 ]
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+  "LuxCore/azure-pipelines.yml",
+  "LuxCore/cmake/",
+  "LuxCore/CMakeLists.txt",
+  "LuxCore/Configuration.cmake",
+  "LuxCore/deps/",
+  "LuxCore/doxygen/",
+  "LuxCore/.git",
+  "LuxCore/.gitattributes",
+  "LuxCore/.github/",
+  "LuxCore/.gitignore",
+  "LuxCore/include/",
+  "LuxCore/pyunittests/",
+  "LuxCore/pywheel/",
+  "LuxCore/release-notes.txt",
+  "LuxCore/samples/",
+  "LuxCore/scenes/",
+  "LuxCore/scripts/",
+  "LuxCore/sdk/",
+  "LuxCore/tests/",
+  "LuxCore/src/slg",
+  "LuxCore/src/luxcore",
+  "LuxCore/src/luxrays",
+]
+include = [
+  "LuxCore/src/pyluxcoretools",
+  "src",
+
+]
