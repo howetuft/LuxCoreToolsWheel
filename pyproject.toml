@@ -8,7 +8,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "pyluxcoretools"
-version = "2.9a1.post0"
+version = "2.9a1.post1"
 dependencies = ["pyluxcore"]
 requires-python = ">= 3.8"
 description = "LuxCore Python Tools"
