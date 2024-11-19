@@ -16,9 +16,9 @@ PyLuxCoreTools are a set of command line tools available in the LuxCoreRender st
 command line rendering, film merging and image conversion to tx format.
 
 ## PyLuxCoreConsole
-Command line renderer.
+Command line rendering.
 
-`
+```
 usage: pyluxcoreconsole [-h] [-f FILE_NAME] [-w WIDTH] [-e HEIGHT] [-D PROP_NAME VALUE]
                         [-d DIR_NAME] [-c] [-t CAMERA_SHUTTER CAMERA_SHUTTER]
                         fileToRender
@@ -42,13 +42,15 @@ options:
                         current directory path
   -c, --remove-unused   remove all unused meshes, materials, textures and image maps
   -t CAMERA_SHUTTER CAMERA_SHUTTER, --camera-shutter CAMERA_SHUTTER CAMERA_SHUTTER
-                        camera shutter open/close`
+                        camera shutter open/close
+```
 
 ## PyLuxCoreMerge
 Film merging.
 
 
-`usage: pyluxcoremerge [-o FILE_NAME] [-f FILE_NAME] [-h] [-a AOV_NAME FILE_NAME]
+```
+usage: pyluxcoremerge [-o FILE_NAME] [-f FILE_NAME] [-h] [-a AOV_NAME FILE_NAME]
 
 PyLuxCoreMerge
 
@@ -78,7 +80,8 @@ options:
                         by BIDIRCPU and LIGHTCPU render engines)
   -r SRC_OFFSET_X SRC_OFFSET_Y SRC_WIDTH SRC_HEIGHT DST_OFFSET_X DST_OFFSET_Y, --region SRC_OFFSET_X SRC_OFFSET_Y SRC_WIDTH SRC_HEIGHT DST_OFFSET_X DST_OFFSET_Y
                         Define the origin and the size of the region in the source film and
-                        the placement in the destination film where the it will be merged`
+                        the placement in the destination film where the it will be merged
+```
 
 ## PyLuxCoreMakeTx
 Image conversion to tx format.
