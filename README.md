@@ -86,7 +86,7 @@ options:
 ## PyLuxCoreMakeTx
 Image conversion to tx format.
 
-`
+```
 usage: pyluxcoremaketx [-h] srcImageFileName dstImageFileName
 
 PyLuxCoreMakeTx
@@ -96,7 +96,8 @@ positional arguments:
   dstImageFileName  destination image TX file name
 
 options:
-  -h, --help        show this help message and exit`
+  -h, --help        show this help message and exit
+```
 
 
 # Install
