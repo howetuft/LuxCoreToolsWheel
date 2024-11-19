@@ -51,7 +51,7 @@ jobs:
     needs: [build_wheels]
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/pyluxcore
+      url: https://test.pypi.org/p/pyluxcoretools
     permissions:
       id-token: write
       attestations: write
@@ -76,7 +76,7 @@ jobs:
     needs: [build_wheels]
     environment:
       name: pypi
-      url: https://pypi.org/p/pyluxcore
+      url: https://pypi.org/p/pyluxcoretools
     permissions:
       id-token: write
       attestations: write
