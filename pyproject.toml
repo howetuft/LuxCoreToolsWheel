@@ -39,6 +39,7 @@ keywords = [
 [project.scripts]
 pyluxcoreconsole = "src.pyluxcoreconsole:main"
 pyluxcoremaketx = "src.pyluxcoremaketx:main"
+pyluxcoremerge = "src.pyluxcoremerge:main"
 
 [project.urls]
 Homepage = "https://luxcorerender.org/"
@@ -81,5 +82,4 @@ exclude = [
 include = [
   "LuxCore/src/pyluxcoretools",
   "src",
-
 ]
